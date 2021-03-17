@@ -13,4 +13,5 @@ document.querySelector('form').addEventListener('submit', function (e) {
     console.log('ID: ' + ideInput.value + '\n' + 'Name:' + nameInput.value + '\n' +  'Extension:' + extInput.value + '\n' + 'Email:' + emaInput.value +  '\n' + 'Department:' + depInput.value);
 });
 
+
 });
