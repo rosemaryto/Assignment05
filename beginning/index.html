@@ -17,27 +17,27 @@
 </head>
 <body class="mt-2 ml-4">
     <h1>Employee Management System</h1>
-    <form id="empForm">
+    <form id="empForm" name="empForm">
         <label for="id">8-Digit Employee ID</label>
-        <input type="text" id="id" maxlength="8" required>
+        <input type="text" id="ide" maxlength="8" required>
 
         <label for="name">Full Name</label>
-        <input type="text" id="name" required>
+        <input type="text" id="nam" required>
 
         <label for="ext">4-Digit Extension</label>
         <input type="text" id="ext" maxlength="4" required>
 
         <label for="email">Email</label>
-        <input type="email" id="email" required>
+        <input type="email" id="ema" required>
 
         <label for="department">Department</label>
-        <select id="department" required>
-            <option value="adm">Administrative</option>
-            <option value="eng">Engineering</option>
-            <option value="exe">Executive</option>
-            <option value="mar">Marketing</option>
-            <option value="qua">Quality Asurance</option>
-            <option value="sal">Sales</option>
+        <select id="dep" required>
+            <option value="Administrative">Administrative</option>
+            <option value="Engineering">Engineering</option>
+            <option value="Executive">Executive</option>
+            <option value="Marketing">Marketing</option>
+            <option value="Quality Assurance">Quality Assurance</option>
+            <option value="Sales">Sales</option>
         </select>
 
         <input type="submit" id="submit" value="Add Employee">
